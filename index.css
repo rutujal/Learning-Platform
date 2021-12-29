@@ -1,0 +1,348 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+*{
+    margin:0;
+    padding: 0;
+}
+
+.logo{
+  width:40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 10px;
+}
+
+.logo img{
+    width:33%;
+   
+}
+
+ .navbar{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     position: sticky;
+     top:0;
+     cursor: pointer;
+     
+ }
+
+.nav-list{
+    
+    display:flex;
+}
+
+.nav-list li{
+    list-style: none;
+    padding: 26px 30px;
+    
+    
+}
+
+.nav-list li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family:  'Ubuntu', sans-serif;
+}
+
+.nav-list li a:hover{
+    color:orange;
+}
+
+#search{
+    padding: 5px;
+    font-size: 17px;
+    border:2px solid grey;
+    border-radius: 9px;
+
+}
+
+.background{
+    background: rgba(0,0, 0,0.7) url(../Project/images/banner/Blue_triangle_bg_image.jpg);
+    background-size: cover;
+   /* background-blend-mode: darken;*/
+}
+.background1{
+    background: url(../Project/images/backgroundimg.jpeg);
+    background-size: cover;
+    
+}
+.firstSection{
+    height: 100vh;
+}
+.box-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width:50%;
+    margin:auto;
+    height: 80%;
+}
+.firsthalf{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.secondhalf{
+    width:40%;
+}
+.photos{
+    width:100%;
+    border:4px solid white;
+    border-radius: 150px;
+    display:block;
+    margin:auto;
+}
+
+.textbig{
+    color: blue;
+    font-weight: 700;
+    font-size: 90px;
+    align-items: center;
+    padding-left: 150px;
+}
+
+.textsmall{
+    font-size: 40px;
+    padding-left: 50px;
+    
+}
+
+.btn{
+    padding: 8px 20px;
+    margin:7px 3px;
+    border:2px solid white;
+    border-radius: 8px;
+    background: none;
+    color:white;
+    cursor: pointer;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+}
+
+.btn-sn{
+    padding: 6px 10px;
+    vertical-align: middle;
+    font-size: 16px;
+}
+.contact{
+    background-color: #f4f2f2;
+    height: 833px;
+}
+
+.text-center{
+    text-align: center;
+    padding-top: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 35px;
+}
+
+.form{
+    max-width: 1200px;
+    margin: 25px auto;
+}
+
+.form-input{
+    width: 100%;
+    font-size: 19px;
+    border:2px solid gray;
+    border-radius: 6px;
+    margin:34px 0px;
+    padding: 13px 2px;
+    
+}
+
+.btn-dark{
+    color:black;
+    border:2px solid grey;
+}
+
+
+div#services {
+    background: #f7f6f6;
+    text-align: center;
+    font-family: 'Metal Mania';
+    padding: 25px;
+    overflow: hidden;
+  }
+  .ServiceInner h2 {
+    font-size: 60px;
+      color: crimson;
+      font-weight: 900;
+  }
+  
+  .ServiceInner p {
+    font-size: 25px;
+    padding: 20px;
+    color: #313d4a;
+    margin-bottom: 20px;
+  }
+  
+  div#serviceMainBlock {
+    text-align: center;
+    margin: auto;
+    display: inline-flex;
+  margin-left: 120px;}
+  
+  .ServiceBox {
+    /*float: left;*/
+    display: inline-block;
+    width: 30%;
+  }
+  
+  .ServiceBox.one i {
+    color: white;
+    background: #FF3A46;
+    text-align: center;
+    border-radius: 50%;
+    padding: 18px;
+    margin: 15px;
+  }
+  
+  .ServiceBox.one {
+    background: white;
+    padding: 30px 10px;
+  }
+  
+  .ServiceBox.one p {
+    font-size: 20px;
+    padding: 41px;
+  }
+  
+  .ServiceBox.one h2 {
+    font-size: 40px;
+    color: crimson;
+    font-weight: 900;
+  }
+  
+  
+  .ServiceBox.two i {
+    color: white;
+    background: #00A0F0;
+    text-align: center;
+    border-radius: 50%;
+    padding: 18px;
+    margin: 15px;
+  }
+  
+  .ServiceBox.two {
+    background: white;
+    padding: 30px 10px;
+  }
+  
+  .ServiceBox.two p {
+    font-size: 20px;
+    padding: 41px;
+  }
+  
+  .ServiceBox.two h2 {
+    font-size: 40px;
+    font-weight: 900;
+    color: #00A0F0;
+  }
+  
+  
+  .ServiceBox.three i {
+    color: white;
+    background:#FF3A46;
+    text-align: center;
+    border-radius: 50%;
+    padding: 18px;
+    margin: 15px;
+  }
+  
+  .ServiceBox.three {
+    background: white;
+    padding: 30px 10px;
+  }
+  
+  .ServiceBox.three p {
+    font-size: 20px;
+    padding: 41px;
+  }
+  
+  .ServiceBox.three h2 {
+    font-size: 40px;
+    font-weight: 900;
+    color:#FF3A46;
+  }
+  .ServiceBox {
+    box-shadow: 4px 4px 20px #afafaf;
+    transition-duration: 0.6s;
+  }
+  
+  
+  
+  .ServiceBox.one:hover{
+    box-shadow: -3px 3px 15px #FF3A46;
+    cursor: pointer;
+  }
+  
+  .ServiceBox.two:hover{
+    box-shadow: -3px 3px 15px #00A0F0;
+    cursor: pointer;
+  }
+  .ServiceBox.three:hover{
+    box-shadow: -3px 3px 15px #FF3A46;
+    cursor: pointer;
+  }
+  
+  .ServiceBox p {
+    color: #3a3939;
+  }
+
+  .lastdiv{
+    
+    height: 80px;
+    background:url(../Project/images/learner_benefits/curve_bgDwn.jpg);
+   
+}
+.lastheading{
+    text-align: center;
+    padding-top: 10px;
+   font-weight: 20px;
+    font-size: 30px;
+    line-height: 60px;
+    margin: 0 0 5px;
+     
+}
+@media only screen and (max-width: 1000px){
+    .nav-list{
+        flex-direction: column;
+    }
+    .navbar{
+        flex-direction: column;
+        transition: all 0.7s ease-out;
+        height: 400px;
+    }
+   .box-main{
+       flex-direction: column;
+       max-width: 100%;
+
+   }  
+  .secondhalf img{
+      width:150%;
+      margin-top: 20px;
+  }
+  .form-input{
+    width: 90%;
+  }
+
+   .textbig{
+       font-size: 60px;
+   }
+   div#serviceMainBlock {
+       display: block;
+       margin-left: 5px;
+   }
+   .ServiceBox{
+       width: 100%;
+       display: block;
+       
+   }
+ }
